@@ -8,7 +8,7 @@ function decimalToBinary(num) {
 		b+=rem*unit;
 		unit=unit*10;
 	}
-	consol.log(b);
+	console.log(b);
 }
 
 window.decimalToBinary = decimalToBinary;
